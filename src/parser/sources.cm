@@ -1,0 +1,26 @@
+(* sources.cm
+ *
+ * COPYRIGHT (c) 2024 John Reppy (http://cs.uchicago.edu/~jhr)
+ * All rights reserved.
+ *
+ * Sample code
+ * CMSC 22600
+ * Spring 2024
+ * University of Chicago
+ *)
+
+Library
+
+  structure Parser
+
+is
+
+  $/basis.cm
+  $/smlnj-lib.cm
+  $/ml-lpt-lib.cm
+
+  ../common/sources.cm
+
+  ovid.lex : ML-ULex
+  ovid-tokens.sml
+  parser.sml
