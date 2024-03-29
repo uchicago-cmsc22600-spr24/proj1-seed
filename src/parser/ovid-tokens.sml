@@ -48,6 +48,7 @@ structure OvidTokens =
       | MOD                     (* "%" *)
       | COMMA                   (* "," *)
       | COLON                   (* ":" *)
+      | BAR                     (* "|" *)
       | ARROW                   (* "->" *)
       | DARROW                  (* "=>" *)
       | WILD                    (* "_" *)
@@ -91,6 +92,7 @@ structure OvidTokens =
             | MOD => "%"
             | COMMA => ","
             | COLON => ":"
+            | BAR => "|"
             | ARROW => "->"
             | DARROW => "=>"
             | WILD => "_"
